@@ -1,6 +1,9 @@
 import { createServer } from 'node:http';
 import { MongoClient } from 'mongodb';
 
+
+console.log("Starting Back End");
+
 const url = 'mongodb://localhost:27017';
 const dbName = 'mydb';
 const client = new MongoClient(url);
